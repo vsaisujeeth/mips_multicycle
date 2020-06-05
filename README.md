@@ -3,8 +3,6 @@ MIPS multi cycle Verilog implementation based on Computer Organization and Desig
 
 ##Overview
 The implementation supports multiple cycle per instruction add, sub, lw, sw, beq and slt.
-Based on the implementation scheme from chapter 5, The Processor: Datapath and Control (5.5 A multicycle implementation) of Computer 
-Organization and Design by David A. Patterson and John L. Hennessy, 3rd edition.
 The memory is structured in 32-bit words.
 
 Branches are finished in 3 cycles, R-type (ALU) instructions in 4, Stores (sw) in 4, Loads (lw) in 5.
@@ -37,6 +35,7 @@ The result will be 5 and will be located in the data memory.
 #Tools
 Modelsim was used for simulation. 
 
+Check Report.pdf for more explanation
 
 #examples
 
