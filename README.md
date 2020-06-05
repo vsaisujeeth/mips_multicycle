@@ -35,5 +35,4 @@ The program computes the sum of the first 16 values from the data memory.
 The result will be 5 and will be located in the data memory.
 
 #Tools
-Modelsim was used for simulation. There is a free student edition available.
-QtSpim was used to view the codes for each instruction.
+Modelsim was used for simulation. 
